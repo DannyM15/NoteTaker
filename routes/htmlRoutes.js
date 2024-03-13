@@ -1,4 +1,4 @@
-// HTML index and notes routes
+// HTML ind
 const htmlRoutes = require('express').Router()
 
 // GET route for index
@@ -7,9 +7,5 @@ htmlRoutes.get('/', (req, res) => {
 });
 
 
-// POST route for index ?
-htmlRoutes.post('/', (req, res) => {
-
-})
 
 module.exports = htmlRoutes;
